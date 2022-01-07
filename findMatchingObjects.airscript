@@ -1,0 +1,10 @@
+FROM
+  obj
+IN
+  input
+WHERE
+  ISNOTEMPTY(
+    FROM item IN obj.line_items WHERE item.product_id = 98765 SELECT item
+  )
+SELECT
+  obj
