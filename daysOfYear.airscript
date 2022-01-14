@@ -1,0 +1,10 @@
+DAYS(
+  {
+    "day": 1,
+    "month": 1,
+    "year": TODAY().year
+  },
+  TODAY()
+)
+  * 1000
+  / 365
